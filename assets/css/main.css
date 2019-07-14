@@ -1864,7 +1864,6 @@ input, select, textarea {
 
 			.box.style1 .inner > :last-child {
 				margin: 0;
-				margin-left: 222px;
 			}
 
 			.box.style1.right .image {
@@ -2088,6 +2087,16 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
+		position: relative;
+		color: #fff;
+		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		text-align: center;
+		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+	#banner2 {
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
