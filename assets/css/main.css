@@ -1864,6 +1864,7 @@ input, select, textarea {
 
 			.box.style1 .inner > :last-child {
 				margin: 0;
+				margin-left: 222px;
 			}
 
 			.box.style1.right .image {
