@@ -50,6 +50,7 @@ for (var key in value) {
         },
 
         timeScale: {
+            timeVisible: true,
             borderColor: 'rgba(197, 203, 206, 0.8)',
         },
     });
