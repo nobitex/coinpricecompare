@@ -1,5 +1,5 @@
 var xmlHttp = new XMLHttpRequest();
-xmlHttp.open("GET", "https://api.nobitex1.ir/market/udf/history?symbol=BTCIRT&resolution=720&from=1531723694&to=1563260646", false); // false for synchronous request
+xmlHttp.open("GET", "https://api.nobitex1.ir/market/udf/history?symbol=BTCIRT&resolution=720&from=1555413244&to=1563260646", false); // false for synchronous request
 xmlHttp.send(null);
 var result = xmlHttp.responseText;
 result = JSON.parse(result);
