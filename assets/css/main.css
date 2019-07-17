@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		/*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -2662,10 +2662,15 @@ input, select, textarea {
     height: 300px;
     text-align: center;
     position: relative;
-    left: 221px;
     bottom: 181px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	width: 100% !important;
 }
 
 .tv-lightweight-charts {
-    margin-left: 73px;
+    /*margin-left: 73px;*/
 }
+
