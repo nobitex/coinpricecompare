@@ -9,6 +9,11 @@
     <title>coinpricecompare</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <script type="text/javascript" src="charting_library/charting_library.min.js"></script>
+    <script type="text/javascript" src="datafeeds/udf/dist/polyfills.js"></script>
+    <script type="text/javascript" src="datafeeds/udf/dist/bundle.js"></script>
+
+
     <link rel="stylesheet" href="assets/css/main.css"/>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
@@ -77,7 +82,8 @@
 
             <!-- TradingView Widget BEGIN -->
             <!--            <script src="assets/js/chart.js"></script>-->
-            <script src="assets/js/chart.js"></script>
+            <div id="tv_chart_container"></div>
+
             <!-- TradingView Widget END -->
         </header>
 
@@ -98,6 +104,7 @@
                     href="https://www.tradingview.com/symbols/COINBASE-BTCUSD/technicals/" rel="noopener"
                     target="_blank"><span class="blue-text">Technical Analysis for BTCUSD</span></a> by TradingView
             </div>
+
             <script type="text/javascript"
                     src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
                 {
@@ -158,6 +165,7 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/licence-chart.js"></script>
 
 </body>
 </html>
